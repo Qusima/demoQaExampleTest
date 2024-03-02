@@ -327,7 +327,9 @@ describe('Demoqa e2e test', { testIsolation: true }, () => {
 
 		cy.get('#enableAfter').click({ timeout: 6000 });
 
-		cy.get('#visibleAfter').should('be.visible').click({ timeout: 6000 });
+		cy.get('#visibleAfter')
+			.should('be.visible')
+			.click({ timeout: 6000 });
 
 		cy.get('#colorChange').should(
 			'have.css',
