@@ -1,0 +1,21 @@
+{
+  "name": "demoqa_test",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krzysztof Porzucek",
+  "license": "ISC",
+  "description": "Example of cypress skills",
+  "keywords": [
+    "e2e",
+    "test",
+    "cypress",
+    "automation",
+    "framework"
+  ],
+  "dependencies": {
+    "cypress": "^13.6.6"
+  }
+}

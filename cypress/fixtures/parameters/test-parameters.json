@@ -1,0 +1,13 @@
+{
+	"checkbox1": "desktop",
+	"checkbox2": "react",
+	"checkbox3": "veu",
+	"checkbox4": "general",
+	"checkbox5": "downloads",
+	"checkboxresult": "desktopnotescommandsreactveugeneraldownloadswordFileexcelFile",
+	"textBoxName": "Krzysztof Porzucek",
+	"textBoxEmail":"krzyporz@gmail.com",
+	"textBoxcurrentAdress":"Skawina",
+	"textBoxpermanentAdresss":"Skawina",
+	"downloadPath":"D:/Cypress/demoQaExampleTest/cypress/downloads/sampleFile.jpeg"
+}
