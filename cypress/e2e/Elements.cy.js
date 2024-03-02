@@ -284,12 +284,12 @@ describe('Demoqa e2e test', { testIsolation: true }, () => {
 			.and(($img) => expect($img[0].naturalWidth).to.be.gt(50));
 	});
 
-	it.only('Upload and Download', () => {
+	it('Upload and Download', () => {
 		cy.chooseCategoryElement('Elements', 'Upload and Download');
 
 		getTestParameters().then((parameters) => {
 
-		cy.log('Clear download fodler if failed here');
+		cy.log('Clear download folder if failed here');
 		cy.readFile(parameters.downloadPath).should('not.exist');
 
 		cy.get('#downloadButton').contains('Download').click();
