@@ -298,10 +298,7 @@ describe('Demoqa e2e test', { testIsolation: true }, () => {
 			// cypress doesnt support file delete in that scenario
 			// still searching for solution - for now step skiped
 			cy.readFile(parameters.downloadPath);
-
 			
-			
-
 			cy.get('#uploadFile').click();
 
 			cy.get('#uploadFile').selectFile(
